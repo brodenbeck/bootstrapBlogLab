@@ -1,10 +1,12 @@
-.sidebar {
-	list-style: none;
+h2 {
+	border-bottom: 2px solid black;
+	padding-bottom: 10px;
 }
 
 header > h2 {
 	margin-top: 0px;
 	padding-top: 0px;
+	border: none;
 }
 
 .row {
@@ -23,11 +25,26 @@ section {
 	background-color: transparent;
 }
 
-li {
-	margin: 0;
+a {
+	margin-left: 0;
+	padding-left: 0;
 	color: white;
 }
 
 h3 {
 	color: white;
+	border-bottom: 2px solid white;
+	padding-bottom: 5px;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+p:hover {
+	color: black;
+}
+
+.right-align {
+	text-align: right;
 }
