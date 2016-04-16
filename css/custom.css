@@ -56,3 +56,8 @@ a:hover {
 .right-align {
 	text-align: right;
 }
+
+.float-left {
+	float: left;
+	margin: 10px;
+}
