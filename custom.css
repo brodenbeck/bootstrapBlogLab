@@ -7,3 +7,8 @@ img {
 	max-width: 30%;
 	margin: 10px;
 }
+
+.pubdate {
+	color: #717175;
+	font-style: italic;
+}
