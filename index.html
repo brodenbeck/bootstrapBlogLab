@@ -3,6 +3,7 @@
 	<head>
 		<title>Bootstrap Blog Lab</title>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="custom.css">
 	</head>
 
@@ -13,194 +14,245 @@
 				<h2>a blog for the aspiring web developer</h2>
 			</header>
 
-			<section class="col-sm-4 hidden-xs"><!-- navigation section -->
-				<h3>About This Blog</h3>
-				<p>From start to finish, my personal journey of becoming a web developer. I begin with no talent, no knowledge, and no training to hopefully never ending the process of learning and creating.</p>
+			<div class="row">
+				<section class="col-sm-4 hidden-xs"><!-- navigation section -->
+					<h3>About This Blog</h3>
+					<p>From start to finish, my personal journey of becoming a web developer. I begin with no talent, no knowledge, and no training to hopefully never ending the process of learning and creating.</p>
 
-				<h3>Archives</h3>
-				<a href="#thoughtsOnDiversity"><p>Thoughts on Diversity</p></a>
-				<a href="#theCripplingTerror"><p>The Crippling Terror of Being a "Female Developer"</p></a>
-				<a href="#anIntroduction"><p>An Introduction to the Bootcamp Frame-of-Mind</p></a>
-				<a href="#theBeginning"><p>The Beginning</p></a>
-			</section><!-- ends navigation section -->
+					<h3>Archives</h3>
+					<a href="#thoughtsOnDiversity"><p>Thoughts on Diversity</p></a>
+					<a href="#theCripplingTerror"><p>The Crippling Terror of Being a "Female Developer"</p></a>
+					<a href="#anIntroduction"><p>An Introduction to the Bootcamp Frame-of-Mind</p></a>
+					<a href="#theBeginning"><p>The Beginning</p></a>
+				</section><!-- ends navigation section -->
 
-			<section class="col-sm-8"><!-- main content section -->
-				<h3 id="thoughtsOnDiversity">Thoughts on Diversity</h3>
-				<p class="pubdate">Posted on March 28, 2016 by Britta Rodenbeck</p>
-				<img src="images/diversity.gif">
-				<p>It's no secret that the tech field is becoming increasingly more diverse by making diversity a goal for hiring, training, etc.  But what is diversity?  Many companies, agencies, start-ups, and individuals obviously will cite gender disparities, race inequalities, and the like.  Those sorts of demographic instances that are recorded on an application or a general census kind of survey are the instances that are being sought out explicitly.  But does diversity end there?</p>
-				<p>As I applied to Grand Circus's Java Apprenticeship program (which, to mention, I was not accepted into), a question used to display my logical skills was presented in the written application.  Unfortunately, I don't have the specific wording on the question, but I will do my best to illustrate the inquiry to the extent that is necessary to make my point.</p>
-				
-				<!-- trigger the modal with a button -->
-				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalDiversity">Continue reading</button>
-				
-				<!-- modal -->
-				<div class="modal fade" id="modalDiversity" role="dialog">
-					<div class="modal-dialog">
-						<!-- modal content -->
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal">&times;</button><!-- close "x" button -->
-								<h4>Thoughts on Diversity</h4>
-							</div><!-- ends modal header class -->
-							
-							<div class="modal-body">
-								<p>It's no secret that the tech field is becoming increasingly more diverse by making diversity a goal for hiring, training, etc.  But what is diversity?  Many companies, agencies, start-ups, and individuals obviously will cite gender disparities, race inequalities, and the like.  Those sorts of demographic instances that are recorded on an application or a general census kind of survey are the instances that are being sought out explicitly.  But does diversity end there?</p>
-								<p>As I applied to Grand Circus's Java Apprenticeship program (which, to mention, I was not accepted into), a question used to display my logical skills was presented in the written application.  Unfortunately, I don't have the specific wording on the question, but I will do my best to illustrate the inquiry to the extent that is necessary to make my point.</p>
-								<blockquote>There are three men: Aaron, Ian, and James.  Each of them play different positions on a football team: wide receiver, running back, and quarterback, but not necessarily in the same order.  The quarterback is a bachelor, and James is Ian's father-in-law...</blockquote>
-								<p>The question goes on so that one may actually solve the problem, but for what I want to illustrate, let's just stop here.  The logic to solve the problem here relies on the fact that the quarterback is a bachelor.  A bachelor is defined as someone who is not married, and in some dictionaries, as someone who has never been married.  So, logically, James (Ian's wife's father) and Ian are both not bachelors, and thus cannot be the quarterback of the football team.  But there is an exception to this rule that beautifully illustrates the necessity and appeal of a diverse workforce: what if James was never married to Ian's wife's mother?  Technically, wouldn't he, too, be a bachelor?</p>
-								<p>My parents are divorced.  According to most definitions of the word bachelor, my father is technically a bachelor at this moment; he is unmarried.  When my fianc&eacute; and I get married in September, my father (the bachelor) will be his father-in-law.  So there is a chance that James could fall into the same predicament.  But we could still follow the stricter definition of bachelor: someone who has never been married.  What if James (or my father) had never married Ian's wife's mother (or my mother)?  He would be a bachelor, and the entire logic of the problem would be unsolvable unless the marriage was explicitly stated.</p>
-								<p>In programming, these sorts of instances can make or break your code.  Code is logical, mathematical; it follows strict rules.  Exceptions make code messy but must be stated outright.  The diversity in the field helps to not only more accurately represent the demographics of the population, it helps to more accurately problem-solve, troubleshoot, and analyze data and code.  Every one of us has a different story; every one of us has a different background; every one of us has different experiences in our lives.  These different stories, backgrounds, and experiences lead to better and more comprehensive problem solving and creation.</p>
-								<p>So next time you doubt affirmative action or diversity strategies within your field or others, consider the different point of view that person potentially brings to your everyday actions.  It shouldn't simply be about the token girl in the office, it should be about bettering your operation to be the best it can possibly be for everyone.</p>
-							</div><!-- ends modal-body class -->
-							
-							<div class="modal-footer">
-								<button type="button" class="btn-primary" data-dismiss="modal">Close</button>
-							</div><!-- ends modal footer -->
-						</div><!-- ends modal content -->
-					</div><!-- ends modal dialog class -->
-				</div><!-- ends modal fade class -->
+				<section class="col-sm-8 main"><!-- main content section -->
+					<h3 id="thoughtsOnDiversity">Thoughts on Diversity</h3>
+					<p class="pubdate">Posted on March 28, 2016 by Britta Rodenbeck</p>
+					<img src="images/diversity.gif">
+					<p>It's no secret that the tech field is becoming increasingly more diverse by making diversity a goal for hiring, training, etc.  But what is diversity?  Many companies, agencies, start-ups, and individuals obviously will cite gender disparities, race inequalities, and the like.  Those sorts of demographic instances that are recorded on an application or a general census kind of survey are the instances that are being sought out explicitly.  But does diversity end there?</p>
+					<p>As I applied to Grand Circus's Java Apprenticeship program (which, to mention, I was not accepted into), a question used to display my logical skills was presented in the written application.  Unfortunately, I don't have the specific wording on the question, but I will do my best to illustrate the inquiry to the extent that is necessary to make my point.</p>
+					
+					<!-- trigger the modal with a button -->
+					<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalDiversity">Continue reading</button>
+					
+					<!-- modal -->
+					<div class="modal fade" id="modalDiversity" role="dialog">
+						<div class="modal-dialog">
+							<!-- modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button><!-- close "x" button -->
+									<h4>Thoughts on Diversity</h4>
+								</div><!-- ends modal header class -->
+								
+								<div class="modal-body">
+									<p>It's no secret that the tech field is becoming increasingly more diverse by making diversity a goal for hiring, training, etc.  But what is diversity?  Many companies, agencies, start-ups, and individuals obviously will cite gender disparities, race inequalities, and the like.  Those sorts of demographic instances that are recorded on an application or a general census kind of survey are the instances that are being sought out explicitly.  But does diversity end there?</p>
+									<p>As I applied to Grand Circus's Java Apprenticeship program (which, to mention, I was not accepted into), a question used to display my logical skills was presented in the written application.  Unfortunately, I don't have the specific wording on the question, but I will do my best to illustrate the inquiry to the extent that is necessary to make my point.</p>
+									<blockquote>There are three men: Aaron, Ian, and James.  Each of them play different positions on a football team: wide receiver, running back, and quarterback, but not necessarily in the same order.  The quarterback is a bachelor, and James is Ian's father-in-law...</blockquote>
+									<p>The question goes on so that one may actually solve the problem, but for what I want to illustrate, let's just stop here.  The logic to solve the problem here relies on the fact that the quarterback is a bachelor.  A bachelor is defined as someone who is not married, and in some dictionaries, as someone who has never been married.  So, logically, James (Ian's wife's father) and Ian are both not bachelors, and thus cannot be the quarterback of the football team.  But there is an exception to this rule that beautifully illustrates the necessity and appeal of a diverse workforce: what if James was never married to Ian's wife's mother?  Technically, wouldn't he, too, be a bachelor?</p>
+									<p>My parents are divorced.  According to most definitions of the word bachelor, my father is technically a bachelor at this moment; he is unmarried.  When my fianc&eacute; and I get married in September, my father (the bachelor) will be his father-in-law.  So there is a chance that James could fall into the same predicament.  But we could still follow the stricter definition of bachelor: someone who has never been married.  What if James (or my father) had never married Ian's wife's mother (or my mother)?  He would be a bachelor, and the entire logic of the problem would be unsolvable unless the marriage was explicitly stated.</p>
+									<p>In programming, these sorts of instances can make or break your code.  Code is logical, mathematical; it follows strict rules.  Exceptions make code messy but must be stated outright.  The diversity in the field helps to not only more accurately represent the demographics of the population, it helps to more accurately problem-solve, troubleshoot, and analyze data and code.  Every one of us has a different story; every one of us has a different background; every one of us has different experiences in our lives.  These different stories, backgrounds, and experiences lead to better and more comprehensive problem solving and creation.</p>
+									<p>So next time you doubt affirmative action or diversity strategies within your field or others, consider the different point of view that person potentially brings to your everyday actions.  It shouldn't simply be about the token girl in the office, it should be about bettering your operation to be the best it can possibly be for everyone.</p>
+								</div><!-- ends modal-body class -->
+								
+								<div class="modal-footer">
+									<button type="button" class="btn-primary" data-dismiss="modal">Close</button>
+								</div><!-- ends modal footer -->
+							</div><!-- ends modal content -->
+						</div><!-- ends modal dialog class -->
+					</div><!-- ends modal fade class -->
 
-				<h3 id="theCripplingTerror">The Crippling Terror of Being a "Female Developer"</h3>
-				<p class="pubdate">Posted on March 22, 2016 by Britta Rodenbeck</p>
-				<img src="images/female.png">
-				<p>After spending the past few days basically out of commission on any pre-work due to having fun on the weekend and having a 24-hour bug, I'm back to work today, Tuesday, to get through an introduction to Git and to JavaScript.  Sidenote: our training on JavaScript uses <a href="http://jsforcats.com/" target="_blank">JavaScript for Cats</a> which I think is pretty wonderful.  However, for some reason, today I seem plagued by the thought of the future.  I guess I haven't mentioned this before, but my goal through all of this training and career advancement is to one day be a full-stack developer.  I want to do it all; I want to be able to converse intellectually with everyone in the tech industry; I never want to stop learning.  But with all of that comes an absolutely agonizing thought: I am going to be a female developer.</p>
-				<p>Perhaps this stems from this complete moron posting some sort of stupid thing on Facebook saying that feminism is stupid and unnecessary, but for the past day or so, I've been on a feminism tirade from implementing non-traditional elements into my upcoming wedding to basically questioning everything I'm doing right this moment.  There is a vocal push in the tech community that diversity is strength, that Blacks and females and any underrepresented population within the workplace need to be sought out and empowered to make a more equal community.  And let me tell you, this field desperately needs it.  So did psychology in a way, but from a different perspective.  I was elated when I had a male counterpart in group work (honestly, it happened maybe twice in my entire undergraduate career).  The horrifying part about this, though, is I'm starting already to feel the pressure of being the female.</p>
-				
-				<!-- trigger the modal with a button -->
-				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalFemale">Continue reading</button>
-				
-				<!-- modal -->
-				<div class="modal fade" id="modalFemale" role="dialog">
-					<div class="modal-dialog">
-						<!-- modal content -->
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal">&times;</button><!-- close "x" button -->
-								<h4>The Crippling Terror of Being a "Female Developer"</h4>
-							</div><!-- ends modal header class -->
-							
-							<div class="modal-body">
-								<p>After spending the past few days basically out of commission on any pre-work due to having fun on the weekend and having a 24-hour bug, I'm back to work today, Tuesday, to get through an introduction to Git and to JavaScript.  Sidenote: our training on JavaScript uses <a href="http://jsforcats.com/" target="_blank">JavaScript for Cats</a> which I think is pretty wonderful.  However, for some reason, today I seem plagued by the thought of the future.  I guess I haven't mentioned this before, but my goal through all of this training and career advancement is to one day be a full-stack developer.  I want to do it all; I want to be able to converse intellectually with everyone in the tech industry; I never want to stop learning.  But with all of that comes an absolutely agonizing thought: I am going to be a female developer.</p>
-								<p>Perhaps this stems from this complete moron posting some sort of stupid thing on Facebook saying that feminism is stupid and unnecessary, but for the past day or so, I've been on a feminism tirade from implementing non-traditional elements into my upcoming wedding to basically questioning everything I'm doing right this moment.  There is a vocal push in the tech community that diversity is strength, that Blacks and females and any underrepresented population within the workplace need to be sought out and empowered to make a more equal community.  And let me tell you, this field desperately needs it.  So did psychology in a way, but from a different perspective.  I was elated when I had a male counterpart in group work (honestly, it happened maybe twice in my entire undergraduate career).  The horrifying part about this, though, is I'm starting already to feel the pressure of being the female.</p>
-								<p>I don't want to speak for all females.  I mean, think about it.  Imagine yourself as the spokesperson for your race, ethnicity, nationality, sexuality, gender, sex, whatever.  Now think of someone else who fits the same key demographics that you do.  I would bet that while you are similar in many ways, you're also quite different.  Now, I'm a female, but from female to female, there is a TON of differentiation.  Some girls like Pride and Prejudice, some like The Catcher in the Rye, and some probably don't even read.  Can you imagine someone who identifies with Holden Caulfield trying to speak for someone who identifies with Elizabeth Bennet on matters of love and phoniness?  That’s an Odd Couple scenario that I wouldn't want to be a part of.</p>
-								<p>But this is my ultimate fear at this very moment.  I'm not experienced in this arena; I have no knowledge of JavaScript, no knowledge of web development at a larger level.  I got stuck for a few hours trying to just wrap my mind around the idea of the command line.  But there are females out there with more experience and more ambition and simply more knowledge than me.  Unfortunately, for some reason, we are all going to be lumped together in this awkward schema of "female developers," despite our differences within the "developer" schema.  I know it might seem infantile to make such a distinction or to worry about such a distinction, but that distinction is being made.  Companies are seeking out candidates to fulfill diversity needs, which is fantastic and necessary, but many are failing to see that just because "I am female, hear me roar" does not necessarily follow that "I am female, representative of all females, hear all of us roar at exactly the same pitch."</p>
-								<p>It's terrifying to realize that in a few months when I begin applying to positions within the field, some people are going to look at me that way.  They are going to come into the interview with a mindset of "this could be our future female developer."  The qualifier almost always being present means that there is an implicit notion attached that I could be any female developer, but not just a developer.  If I mess up, I risk forever establishing in someone's mind that female developers are lesser than developers.  That is an enormous weight to bear, and one with which I am currently struggling.  Obviously there are many people who don't think this way, but to say that no one will have this reaction is absurd and naive.  Grace Hopper and I are on two different wavelengths here, but for some crazy reason, we are perceived within a similar schema: "the female developer."  It's like the femme fatale or the Jungian anima.  It exists for a reason, but there's a bit more complexity than what is superficially available.</p>
-								<p>And if that doesn't terrify you, then you're probably really good at what you do or you have a level of IDGAF that I hope to one day possess.  I'm just learning though, just taking my first steps.  I'm an infant being grouped in with goddesses.  I'm sitting here sucking my thumb while mighty Lovatar rains down the plague on anyone who dare question her abilities.  I can't speak for Lovatar, nor do I want to.</p>
-							</div><!-- ends modal-body class -->
+					<h3 id="theCripplingTerror">The Crippling Terror of Being a "Female Developer"</h3>
+					<p class="pubdate">Posted on March 22, 2016 by Britta Rodenbeck</p>
+					<img src="images/female.png">
+					<p>After spending the past few days basically out of commission on any pre-work due to having fun on the weekend and having a 24-hour bug, I'm back to work today, Tuesday, to get through an introduction to Git and to JavaScript.  Sidenote: our training on JavaScript uses <a href="http://jsforcats.com/" target="_blank">JavaScript for Cats</a> which I think is pretty wonderful.  However, for some reason, today I seem plagued by the thought of the future.  I guess I haven't mentioned this before, but my goal through all of this training and career advancement is to one day be a full-stack developer.  I want to do it all; I want to be able to converse intellectually with everyone in the tech industry; I never want to stop learning.  But with all of that comes an absolutely agonizing thought: I am going to be a female developer.</p>
+					<p>Perhaps this stems from this complete moron posting some sort of stupid thing on Facebook saying that feminism is stupid and unnecessary, but for the past day or so, I've been on a feminism tirade from implementing non-traditional elements into my upcoming wedding to basically questioning everything I'm doing right this moment.  There is a vocal push in the tech community that diversity is strength, that Blacks and females and any underrepresented population within the workplace need to be sought out and empowered to make a more equal community.  And let me tell you, this field desperately needs it.  So did psychology in a way, but from a different perspective.  I was elated when I had a male counterpart in group work (honestly, it happened maybe twice in my entire undergraduate career).  The horrifying part about this, though, is I'm starting already to feel the pressure of being the female.</p>
+					
+					<!-- trigger the modal with a button -->
+					<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalFemale">Continue reading</button>
+					
+					<!-- modal -->
+					<div class="modal fade" id="modalFemale" role="dialog">
+						<div class="modal-dialog">
+							<!-- modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button><!-- close "x" button -->
+									<h4>The Crippling Terror of Being a "Female Developer"</h4>
+								</div><!-- ends modal header class -->
+								
+								<div class="modal-body">
+									<p>After spending the past few days basically out of commission on any pre-work due to having fun on the weekend and having a 24-hour bug, I'm back to work today, Tuesday, to get through an introduction to Git and to JavaScript.  Sidenote: our training on JavaScript uses <a href="http://jsforcats.com/" target="_blank">JavaScript for Cats</a> which I think is pretty wonderful.  However, for some reason, today I seem plagued by the thought of the future.  I guess I haven't mentioned this before, but my goal through all of this training and career advancement is to one day be a full-stack developer.  I want to do it all; I want to be able to converse intellectually with everyone in the tech industry; I never want to stop learning.  But with all of that comes an absolutely agonizing thought: I am going to be a female developer.</p>
+									<p>Perhaps this stems from this complete moron posting some sort of stupid thing on Facebook saying that feminism is stupid and unnecessary, but for the past day or so, I've been on a feminism tirade from implementing non-traditional elements into my upcoming wedding to basically questioning everything I'm doing right this moment.  There is a vocal push in the tech community that diversity is strength, that Blacks and females and any underrepresented population within the workplace need to be sought out and empowered to make a more equal community.  And let me tell you, this field desperately needs it.  So did psychology in a way, but from a different perspective.  I was elated when I had a male counterpart in group work (honestly, it happened maybe twice in my entire undergraduate career).  The horrifying part about this, though, is I'm starting already to feel the pressure of being the female.</p>
+									<p>I don't want to speak for all females.  I mean, think about it.  Imagine yourself as the spokesperson for your race, ethnicity, nationality, sexuality, gender, sex, whatever.  Now think of someone else who fits the same key demographics that you do.  I would bet that while you are similar in many ways, you're also quite different.  Now, I'm a female, but from female to female, there is a TON of differentiation.  Some girls like Pride and Prejudice, some like The Catcher in the Rye, and some probably don't even read.  Can you imagine someone who identifies with Holden Caulfield trying to speak for someone who identifies with Elizabeth Bennet on matters of love and phoniness?  That’s an Odd Couple scenario that I wouldn't want to be a part of.</p>
+									<p>But this is my ultimate fear at this very moment.  I'm not experienced in this arena; I have no knowledge of JavaScript, no knowledge of web development at a larger level.  I got stuck for a few hours trying to just wrap my mind around the idea of the command line.  But there are females out there with more experience and more ambition and simply more knowledge than me.  Unfortunately, for some reason, we are all going to be lumped together in this awkward schema of "female developers," despite our differences within the "developer" schema.  I know it might seem infantile to make such a distinction or to worry about such a distinction, but that distinction is being made.  Companies are seeking out candidates to fulfill diversity needs, which is fantastic and necessary, but many are failing to see that just because "I am female, hear me roar" does not necessarily follow that "I am female, representative of all females, hear all of us roar at exactly the same pitch."</p>
+									<p>It's terrifying to realize that in a few months when I begin applying to positions within the field, some people are going to look at me that way.  They are going to come into the interview with a mindset of "this could be our future female developer."  The qualifier almost always being present means that there is an implicit notion attached that I could be any female developer, but not just a developer.  If I mess up, I risk forever establishing in someone's mind that female developers are lesser than developers.  That is an enormous weight to bear, and one with which I am currently struggling.  Obviously there are many people who don't think this way, but to say that no one will have this reaction is absurd and naive.  Grace Hopper and I are on two different wavelengths here, but for some crazy reason, we are perceived within a similar schema: "the female developer."  It's like the femme fatale or the Jungian anima.  It exists for a reason, but there's a bit more complexity than what is superficially available.</p>
+									<p>And if that doesn't terrify you, then you're probably really good at what you do or you have a level of IDGAF that I hope to one day possess.  I'm just learning though, just taking my first steps.  I'm an infant being grouped in with goddesses.  I'm sitting here sucking my thumb while mighty Lovatar rains down the plague on anyone who dare question her abilities.  I can't speak for Lovatar, nor do I want to.</p>
+								</div><!-- ends modal-body class -->
 
-							<div class="modal-footer">
-								<button type="button" class="btn-primary" data-dismiss="modal">Close</button>
-							</div><!-- ends modal footer -->
-						</div><!-- ends modal content -->
-					</div><!-- ends modal dialog class -->
-				</div><!-- ends modal fade class -->
+								<div class="modal-footer">
+									<button type="button" class="btn-primary" data-dismiss="modal">Close</button>
+								</div><!-- ends modal footer -->
+							</div><!-- ends modal content -->
+						</div><!-- ends modal dialog class -->
+					</div><!-- ends modal fade class -->
 
 
-				<h3 id="anIntroduction">An Introduction to the Bootcamp Frame-of-Mind</h3>
-				<p class="pubdate">Posted on March 14, 2016 by Britta Rodenbeck</p>
-				<img src="images/bootcamp.jpg">
-				<p>Just last week I was accepted into a front-end web development bootcamp with <a href="http://www.grandcircus.co/">Grand Circus</a>, an institution focused on training people in the Detroit, Michigan area for careers in the tech field.  The field seems to be growing at an alarmingly quick rate in the metro area, something that is good for those of us looking to break into the scene.</p>
-				<p>This is completely foreign to me.  From an extremely young age, I've always assumed that the order of education and career looked a lot like...</p>
-				<ol>
-					<li>Graduate high school</li>
-					<li>Go to college</li>
-					<li>Graduate college</li>
-					<li>Get a job with degree</li>
-					<li>Stay at job until retirement</li>
-				</ol>
-				
-				<!-- trigger the modal with a button -->
-				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalFrame">Continue reading</button>
-				
-				<!-- modal -->
-				<div class="modal fade" id="modalFrame" role="dialog">
-					<div class="modal-dialog">
-						<!-- modal content -->
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal">&times;</button><!-- close "x" button -->
-								<h4>An Introduction to the Bootcamp Frame-of-Mind</h4>
-							</div><!-- ends modal header class -->
-							
-							<div class="modal-body">
-								<p>Just last week I was accepted into a front-end web development bootcamp with <a href="http://www.grandcircus.co/">Grand Circus</a>, an institution focused on training people in the Detroit, Michigan area for careers in the tech field.  The field seems to be growing at an alarmingly quick rate in the metro area, something that is good for those of us looking to break into the scene.</p>
-								<p>This is completely foreign to me.  From an extremely young age, I've always assumed that the order of education and career looked a lot like...</p>
-								<ol>
-									<li>Graduate high school</li>
-									<li>Go to college</li>
-									<li>Graduate college</li>
-									<li>Get a job with degree</li>
-									<li>Stay at job until retirement</li>
-								</ol>
-								<p>So my hesitation in doing a bootcamp, where no certification or degree is earned, was pretty strong to begin.  What helped me to continue on this adventure is an emphasis placed on competency, especially in the exponential growth within the tech industry in metro Detroit.</p>
-								<p>Another memory helped to solidify this decision.  I remember going to a career fair as I was preparing to graduate college and seeing one of a few things for most entry-level positions in the psychology field:</p>
-								<ol>
-									<li>3 - 5 years of applied experience</li>
-									<li>2 - 4 years of research experience</li>
-									<li>an advanced degress (Master's, Ph.D., Psy.D., etc.)</li>
-									<li>some combination of the above</li>
-								</ol>
-								<p>It was a mess, and it was enough to turn anyone off to the job hunt.  Sure, you could get a job working with children for about $5.00 an hour or with troubled teenagers, as I did, at a rate that is not worth losing your sanity.  Children and troubled teenagers... not the most stress-less groups of people to deal with.</p>
-								<p>Instead, a working knowledge of front-end development is enough to get your through a technical interview in the field, which massively helps to secure you a position.  Several friends in the industry (some in Mainframe development, some in app development, others in web development) ALL had on-the-job training that helped them to learn exactly how to perform and execute their knowledge within the company effectively.  My impression so far is that the collegiate or bootcamp process is simply to give you the building blocks and the mindset to succeed in the field, not to necessarily teach you everything you might ever need to know in the future.</p>
-								<p>In fact, that kind of knowledge would be obsolete quickly, anyways.  The amazing thing about this field is that it is constantly changing.  There are new design standards, new languages, new frameworks being born every breath.  It's enough to keep a girl on her toes forever, to keep her learning even when out of the classroom.</p>
-								<p>So, is a bootcamp right for you?  Only you can answer that, but ponder these questions while you debate it:</p>
-								<ol>
-									<li>Are you a self-motivated person?</li>
-									<li>Do you desperately want a change of pace professionally?</li>
-									<li>Do you have a lot, and I mean a lot, of free time for an extended period of time? Say, 3-ish months?</li>
-									<li>Do you want to be part of a constantly-evolving profession?</li>
-									<li>How are your problem-solving skills?</li>
-									<li>Are you good at Googling things?</li>
-									<li>Do you have a support system?</li>
-									<li>Can you afford the tuition (or is there a financing option available to you that you can afford)?</li>
-									<li>How do you handle intense pressure?</li>
-								</ol>
-								<p>If you're still not sure, breathe.  See if there are free courses in your area, or check out something like <a href="https://www.udacity.com/" target="_blank">Udacity</a>, <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a>, or <a href="https://www.codeschool.com/" target="_blank">codeschool</a>.  Get a feel for what the work might be like in a low-stress environment.  Contact a <a href="https://www.coursereport.com/" target="_blank">bootcamp facility near you</a>.  Ask questions, attend free events, meet with local coders.  I did all of these before settling into this, as it's not a decision to be taken lightly.</p>
-								<p>So now I sit here with my pre-work, a few assignments that I need to complete before my April 11th start date.  The work is challenging, as it should be, interesting, as I need it to be, and potentially inspiring, as the world desperately needs.  Now if I could just settle on a design, I could finally get going.</p>
-							</div><!-- ends modal-body class -->
+					<h3 id="anIntroduction">An Introduction to the Bootcamp Frame-of-Mind</h3>
+					<p class="pubdate">Posted on March 14, 2016 by Britta Rodenbeck</p>
+					<img src="images/bootcamp.jpg">
+					<p>Just last week I was accepted into a front-end web development bootcamp with <a href="http://www.grandcircus.co/">Grand Circus</a>, an institution focused on training people in the Detroit, Michigan area for careers in the tech field.  The field seems to be growing at an alarmingly quick rate in the metro area, something that is good for those of us looking to break into the scene.</p>
+					<p>This is completely foreign to me.  From an extremely young age, I've always assumed that the order of education and career looked a lot like...</p>
+					<ol>
+						<li>Graduate high school</li>
+						<li>Go to college</li>
+						<li>Graduate college</li>
+						<li>Get a job with degree</li>
+						<li>Stay at job until retirement</li>
+					</ol>
+					
+					<!-- trigger the modal with a button -->
+					<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalFrame">Continue reading</button>
+					
+					<!-- modal -->
+					<div class="modal fade" id="modalFrame" role="dialog">
+						<div class="modal-dialog">
+							<!-- modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button><!-- close "x" button -->
+									<h4>An Introduction to the Bootcamp Frame-of-Mind</h4>
+								</div><!-- ends modal header class -->
+								
+								<div class="modal-body">
+									<p>Just last week I was accepted into a front-end web development bootcamp with <a href="http://www.grandcircus.co/">Grand Circus</a>, an institution focused on training people in the Detroit, Michigan area for careers in the tech field.  The field seems to be growing at an alarmingly quick rate in the metro area, something that is good for those of us looking to break into the scene.</p>
+									<p>This is completely foreign to me.  From an extremely young age, I've always assumed that the order of education and career looked a lot like...</p>
+									<ol>
+										<li>Graduate high school</li>
+										<li>Go to college</li>
+										<li>Graduate college</li>
+										<li>Get a job with degree</li>
+										<li>Stay at job until retirement</li>
+									</ol>
+									<p>So my hesitation in doing a bootcamp, where no certification or degree is earned, was pretty strong to begin.  What helped me to continue on this adventure is an emphasis placed on competency, especially in the exponential growth within the tech industry in metro Detroit.</p>
+									<p>Another memory helped to solidify this decision.  I remember going to a career fair as I was preparing to graduate college and seeing one of a few things for most entry-level positions in the psychology field:</p>
+									<ol>
+										<li>3 - 5 years of applied experience</li>
+										<li>2 - 4 years of research experience</li>
+										<li>an advanced degress (Master's, Ph.D., Psy.D., etc.)</li>
+										<li>some combination of the above</li>
+									</ol>
+									<p>It was a mess, and it was enough to turn anyone off to the job hunt.  Sure, you could get a job working with children for about $5.00 an hour or with troubled teenagers, as I did, at a rate that is not worth losing your sanity.  Children and troubled teenagers... not the most stress-less groups of people to deal with.</p>
+									<p>Instead, a working knowledge of front-end development is enough to get your through a technical interview in the field, which massively helps to secure you a position.  Several friends in the industry (some in Mainframe development, some in app development, others in web development) ALL had on-the-job training that helped them to learn exactly how to perform and execute their knowledge within the company effectively.  My impression so far is that the collegiate or bootcamp process is simply to give you the building blocks and the mindset to succeed in the field, not to necessarily teach you everything you might ever need to know in the future.</p>
+									<p>In fact, that kind of knowledge would be obsolete quickly, anyways.  The amazing thing about this field is that it is constantly changing.  There are new design standards, new languages, new frameworks being born every breath.  It's enough to keep a girl on her toes forever, to keep her learning even when out of the classroom.</p>
+									<p>So, is a bootcamp right for you?  Only you can answer that, but ponder these questions while you debate it:</p>
+									<ol>
+										<li>Are you a self-motivated person?</li>
+										<li>Do you desperately want a change of pace professionally?</li>
+										<li>Do you have a lot, and I mean a lot, of free time for an extended period of time? Say, 3-ish months?</li>
+										<li>Do you want to be part of a constantly-evolving profession?</li>
+										<li>How are your problem-solving skills?</li>
+										<li>Are you good at Googling things?</li>
+										<li>Do you have a support system?</li>
+										<li>Can you afford the tuition (or is there a financing option available to you that you can afford)?</li>
+										<li>How do you handle intense pressure?</li>
+									</ol>
+									<p>If you're still not sure, breathe.  See if there are free courses in your area, or check out something like <a href="https://www.udacity.com/" target="_blank">Udacity</a>, <a href="https://www.codecademy.com/learn" target="_blank">Codecademy</a>, or <a href="https://www.codeschool.com/" target="_blank">codeschool</a>.  Get a feel for what the work might be like in a low-stress environment.  Contact a <a href="https://www.coursereport.com/" target="_blank">bootcamp facility near you</a>.  Ask questions, attend free events, meet with local coders.  I did all of these before settling into this, as it's not a decision to be taken lightly.</p>
+									<p>So now I sit here with my pre-work, a few assignments that I need to complete before my April 11th start date.  The work is challenging, as it should be, interesting, as I need it to be, and potentially inspiring, as the world desperately needs.  Now if I could just settle on a design, I could finally get going.</p>
+								</div><!-- ends modal-body class -->
 
-							<div class="modal-footer">
-								<button type="button" class="btn-primary" data-dismiss="modal">Close</button>
-							</div><!-- ends modal footer -->
-						</div><!-- ends modal content -->
-					</div><!-- ends modal dialog class -->
-				</div><!-- ends modal fade class -->
+								<div class="modal-footer">
+									<button type="button" class="btn-primary" data-dismiss="modal">Close</button>
+								</div><!-- ends modal footer -->
+							</div><!-- ends modal content -->
+						</div><!-- ends modal dialog class -->
+					</div><!-- ends modal fade class -->
 
-				<h3 id="theBeginning">The Beginning</h3>
-				<p class="pubdate">Posted on March 7, 2016 by Britta Rodenbeck</p>
-				<img src="images/beginning.jpg">
-				<p>It's always a difficult thing to start something new, especially when you've been doing the something old for any extended amount of time.  I think a lot of the time people won't try their something new because their something old still feels comfortable.  It often takes a negative event of great proportion to transition.  Luckily, I haven't encountered that negative event, at least not to the extent that many have.</p>
-				
-				<!-- trigger the modal with a button -->
-				<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalBeginning">Continue reading</button>
-				
-				<!-- modal -->
-				<div class="modal fade" id="modalBeginning" role="dialog">
-					<div class="modal-dialog">
-						<!-- modal content -->
-						<div class="modal-content">
-							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal">&times;</button><!-- close "x" button -->
-								<h4>An Introduction to the Bootcamp Frame-of-Mind</h4>
-							</div><!-- ends modal header class -->
-							
-							<div class="modal-body">
-								<p>It's always a difficult thing to start something new, especially when you've been doing the something old for any extended amount of time.  I think a lot of the time people won't try their something new because their something old still feels comfortable.  It often takes a negative event of great proportion to transition.  Luckily, I haven't encountered that negative event, at least not to the extent that many have.</p>
-								<p>Since high school, my something old has been psychological sciences.  I still love psychology: the insight into the mind, the research into new practices.  It is all extremely interesting, and it is not at all something that I intend to push away forever.  In fact, I implement my learnings from psychology into my life daily.  I just don't want to work in the psychological field for the remainder of my life.</p>
-								<p>I have instead, finally, after about a decade of professional flip-flopping, decided what it is that I really want to do in life, something at which I would really excel.  I am beginning my journey to becoming a web developer today.  I've created one <a href="http://www.lukelovesbritta.com/" target="_blank">full-fledged website</a> already, but today I am taking steps to further my knowledge of the field.  I will talk about those steps in my next post because today I am simply going to enjoy them.</p>
-							</div><!-- ends modal-body class -->
+					<h3 id="theBeginning">The Beginning</h3>
+					<p class="pubdate">Posted on March 7, 2016 by Britta Rodenbeck</p>
+					<img src="images/beginning.jpg">
+					<p>It's always a difficult thing to start something new, especially when you've been doing the something old for any extended amount of time.  I think a lot of the time people won't try their something new because their something old still feels comfortable.  It often takes a negative event of great proportion to transition.  Luckily, I haven't encountered that negative event, at least not to the extent that many have.</p>
+					
+					<!-- trigger the modal with a button -->
+					<button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalBeginning">Continue reading</button>
+					
+					<!-- modal -->
+					<div class="modal fade" id="modalBeginning" role="dialog">
+						<div class="modal-dialog">
+							<!-- modal content -->
+							<div class="modal-content">
+								<div class="modal-header">
+									<button type="button" class="close" data-dismiss="modal">&times;</button><!-- close "x" button -->
+									<h4>An Introduction to the Bootcamp Frame-of-Mind</h4>
+								</div><!-- ends modal header class -->
+								
+								<div class="modal-body">
+									<p>It's always a difficult thing to start something new, especially when you've been doing the something old for any extended amount of time.  I think a lot of the time people won't try their something new because their something old still feels comfortable.  It often takes a negative event of great proportion to transition.  Luckily, I haven't encountered that negative event, at least not to the extent that many have.</p>
+									<p>Since high school, my something old has been psychological sciences.  I still love psychology: the insight into the mind, the research into new practices.  It is all extremely interesting, and it is not at all something that I intend to push away forever.  In fact, I implement my learnings from psychology into my life daily.  I just don't want to work in the psychological field for the remainder of my life.</p>
+									<p>I have instead, finally, after about a decade of professional flip-flopping, decided what it is that I really want to do in life, something at which I would really excel.  I am beginning my journey to becoming a web developer today.  I've created one <a href="http://www.lukelovesbritta.com/" target="_blank">full-fledged website</a> already, but today I am taking steps to further my knowledge of the field.  I will talk about those steps in my next post because today I am simply going to enjoy them.</p>
+								</div><!-- ends modal-body class -->
 
-							<div class="modal-footer">
-								<button type="button" class="btn-primary" data-dismiss="modal">Close</button>
-							</div><!-- ends modal footer -->
-						</div><!-- ends modal content -->
-					</div><!-- ends modal dialog class -->
-				</div><!-- ends modal fade class -->
+								<div class="modal-footer">
+									<button type="button" class="btn-primary" data-dismiss="modal">Close</button>
+								</div><!-- ends modal footer -->
+							</div><!-- ends modal content -->
+						</div><!-- ends modal dialog class -->
+					</div><!-- ends modal fade class -->
 
-			</section><!-- ends main content section -->
+				</section><!-- ends main content section -->
+			</div><!-- ends row -->
 
 		</div><!-- ends container tag -->
+
+			<footer>
+				<div class="row footerRow">
+					<div class="col-sm-4 hidden-xs">
+						<h4>External Links</h4>
+						<a href="#"><p>brodenbeck design</p></a>
+						<a href="#"><p>My portfolio</p></a>
+					</div><!-- ends column 1 -->
+
+					<div class="col-sm-4 border-right border-left hidden-xs">
+						<h4>Contact Me &amp; Subscribe</h4>
+						<form>
+							<div class="form-group">	
+								<label for="inputName">Name</label>
+								<input type="name" class="form-control" id="inputName" placeholder="Your name"></input>
+							</div><!-- ends name form-group -->
+
+							<div class="form-group">
+								<label for="inputEmail">E-mail address</label>
+								<input type="email" class="form-control" id="inputEmail" placeholder="Your e-mail address"></input>
+							</div><!-- ends email form-group -->
+
+							<div class="form-group">
+								<label for="inputMessage">Message</label>
+								<textarea class="form-control" id="inputMessage" placeholder="Type your message here..."></textarea>
+							</div><!-- ends message form-group -->
+
+							<div class="checkbox">
+								<label>
+									<input type="checkbox">Subscribe me to future news</input>
+								</label>
+							</div><!-- ends checkbox -->
+
+							<button type="button" class="btn btn-default">Submit</button>
+
+						</form>
+					</div><!-- ends column 2 -->
+
+					<div class="col-sm-4">
+						<h4>Connect with Me</h4>
+						<a href="https://github.com/brodenbeck" target="_blank"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a> 
+						<a href="https://twitter.com/brodenbeck_des" target="_blank"><i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i></a> 
+						<a href="https://www.linkedin.com/in/britta-rodenbeck-6b962288" target="_blank"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a> 
+						<a href="https://www.instagram.com/brodenbeckdesign/" target="_blank"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a> 
+						<a href="mailto:brodenbeckdesign@gmail.com" target="_blank"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a>
+					</div><!-- ends column 3 -->
+				</div><!-- ends row -->
+				<p>&copy; Britta Rodenbeck 2016</p>
+			</footer>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
  	 	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
