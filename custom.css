@@ -1,0 +1,9 @@
+.modal-content {
+	padding: 10px;
+}
+
+img {
+	float: left;
+	max-width: 30%;
+	margin: 10px;
+}
